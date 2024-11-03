@@ -91,3 +91,27 @@ body {
 .button:hover {
     background-color: #3c4e82;
 }
+
+/* Restart button container */
+.restart-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Restart button styling */
+.restart-button {
+    background-color: #f04b5f;
+    color: white;
+    font-family: 'MyFont';
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+    background-color: #c03d4a;
+    
+}
