@@ -14,6 +14,6 @@ function updateScore(team, points) {
 function resetScores() {
     homeScore = 0;
     guestScore = 0;
-    document.getElementById('home-score').innerText = homeScore;
-    document.getElementById('guest-score').innerText = guestScore;
+    document.getElementById('home-score').textContent = homeScore;
+    document.getElementById('guest-score').textContent = guestScore;
 }
